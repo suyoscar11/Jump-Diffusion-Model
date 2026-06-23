@@ -1,0 +1,26 @@
+{
+  "model": "bounded",
+  "dt": 1.0,
+  "b1_exitprob_max_abs_err": 0.10373223400115972,
+  "b1_survivor_W1": [
+    {
+      "x0": 1.5,
+      "W1": 0.0040389914663639176
+    },
+    {
+      "x0": 3.0,
+      "W1": 0.014570551318897729
+    }
+  ],
+  "b2_rollout": {
+    "K_steps": 8,
+    "T": 8.0,
+    "survival_final_truth": 0.31809,
+    "survival_final_ml": 0.31615,
+    "terminal_density_W1": 0.00985743902219456,
+    "ml_time_s": 0.09855485300067812,
+    "numerical_time_s": 3.8547467190073803,
+    "speedup": 39.11270324740738,
+    "note": "numerical CPU, ML on cuda"
+  }
+}
